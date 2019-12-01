@@ -5,8 +5,10 @@ import { RichText } from '@wordpress/block-editor';
 
 registerBlockType( 'wckochi/wckochi-gutenberg', {
 	title: __( 'Gutenberg Example - WordCamp Kochi' ),
+	description: __( 'Your block description.' ),
 	icon: 'universal-access-alt',
-	category: 'layout',
+	category: 'common',
+	keywords: [ __( 'image' ), __( 'pics' ) ],
 	edit: ( props ) => {
 		return __( 'Hello World!' );
 	},
